@@ -17,8 +17,8 @@
     ],
     "require": {
         "php": "^7.4.3 || ^8.0.2",
-        "chrome-php/wrench": "^1.7",
         "evenement/evenement": "^3.0.1",
+        "chrome-php/wrench": "^1.7.x-dev",
         "monolog/monolog": "^1.27.1 || ^2.8 || ^3.2",
         "psr/log": "^1.1 || ^2.0 || ^3.0",
         "symfony/filesystem": "^4.4 || ^5.0 || ^6.0 || ^7.0",
@@ -51,5 +51,11 @@
             "bin-links": true,
             "forward-command": false
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/fishdaa/chrome-php-wrench"
+        }
+    ]
 }
